@@ -55,5 +55,10 @@ void EPD_3IN6E_Display(const UBYTE *Image);
 void EPD_3IN6E_DisplayPart(const UBYTE *Image, UWORD xstart, UWORD ystart, UWORD image_width, UWORD image_heigh);
 void EPD_3IN6E_Sleep(void);
 
+void EPD_3IN6E_Write_Command(UBYTE Reg);
+void EPD_3IN6E_Write_Data(UBYTE Data);
+void EPD_3IN6E_Write_Data_Block(const UBYTE *Data, UDOUBLE Len);
+void EPD_3IN6E_Refresh(void);
+
 
 #endif

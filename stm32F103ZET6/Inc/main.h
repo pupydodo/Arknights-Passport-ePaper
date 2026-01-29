@@ -66,12 +66,19 @@ void Error_Handler(void);
 #define BUSY_GPIO_Port GPIOA
 #define SPI_CS_Pin GPIO_PIN_4
 #define SPI_CS_GPIO_Port GPIOA
+#define SCK_Pin GPIO_PIN_5
+#define SCK_GPIO_Port GPIOA
 #define PWR_Pin GPIO_PIN_6
 #define PWR_GPIO_Port GPIOA
 #define DIN_Pin GPIO_PIN_7
 #define DIN_GPIO_Port GPIOA
-#define SCK_Pin GPIO_PIN_5
-#define SCK_GPIO_Port GPIOA
+#define SPI2_CS_Pin GPIO_PIN_12
+#define SPI2_CS_GPIO_Port GPIOB
+#define LED_Pin GPIO_PIN_4
+#define LED_GPIO_Port GPIOG
+#define button_Pin GPIO_PIN_9
+#define button_GPIO_Port GPIOC
+
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
@@ -81,5 +88,3 @@ void Error_Handler(void);
 #endif
 
 #endif /* __MAIN_H */
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
