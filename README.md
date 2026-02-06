@@ -1,9 +1,9 @@
 # Arknights Passport ePaper
 明日方舟通行证（全彩墨水屏版）
 
-![1](D:\Project\通行证\Arknights-Passport-ePaper\1.jpg)
+![1](github.com/pupydodo/Arknights-Passport-ePaper\1.jpg)
 
-![2](D:\Project\通行证\Arknights-Passport-ePaper\2.jpg)
+![2](github.com/pupydodo/Arknights-Passport-ePaper\2.jpg)
 
 ### 使用说明
 
